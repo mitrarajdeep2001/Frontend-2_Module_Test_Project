@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Frontend-2 Module-Test Contest</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="main-container">
+    <nav>
+      <h1>Student Portal</h1>
+    </nav>
+    <main>
+      <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search">
+        <button id="search-btn" class="btn">Search</button>
+      </div>
+      <div class="sorting-container">
+        <button id="A-Z-sorting" class="btn">Sort A&#8594Z</button>
+        <button id="Z-A-sorting" class="btn">Sort Z&#8594A</button>
+        <button id="marks-sorting" class="btn">Sort By Marks</button>
+        <button id="pass-sorting" class="btn">Sort By Passing</button>
+        <button id="class-sorting" class="btn">Sort By Class</button>
+        <button id="gender-sorting" class="btn">Sort By Gender</button>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Class</th>
+            <th>Marks</th>
+            <th>Passing</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody id="table-body">
+        </tbody>
+      </table>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
